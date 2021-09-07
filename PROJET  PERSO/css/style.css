@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Haut de page */
+.header{
+    background-color: #332E29;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navlist{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navlist li{
+    padding: 0 20px;
+}
+
+.navlist a{
+    color: #ACABAB;
+    font-size: 20px;
+}
+
+.navlist a:hover{
+    text-decoration: underline;
+}
+
+.header-content{
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    width: 40%;
+    color: white;
+}
+
+.header-left p{
+    font-size: 30px;
+    margin: 10% 0;
+}
+
+.header-left ul{
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.header-right{
+    width: 50%;
+    background:linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.397)), url(/img/cov-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-right p{
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    margin-left: -50%;
+    margin-top: 70%;
+}
+
+/* Autres parties de la page */
+.about{
+    background-color: #F0E3D7;
+    padding: 50px 0;
+}
+
+.about .container{
+    text-align: center;
+}
+
+.about .container h2{
+    font-size: 50px;
+}
+
+.about .container hr{
+    width: 100px;
+    height: 3px;
+    background-color: #ED6914;
+    border: none;
+    margin: auto;
+}
+
+.about-cmt{
+    font-size: 20px;
+    padding: 1% 25%;
+}
+
+.txt-upper{
+    text-transform: uppercase;
+}
+
+.about-wallp{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.wallp{
+    width: 30%;
+    height: 400px;
+}
+
+.wallp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 10px 30px;
+}
+
+.btn-orange{
+    border: 2px solid #ED6914;
+    color: black;
+}
+
+.btn-orange:hover{
+    background-color: #ED6914;
+    color: white;
+}
+
+.about-next{
+    background: url(/img/cov-6.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    padding-top: 20%
+}
+
+.about-card{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.bg-orange{
+    background-color: #ED6914;
+}
+
+.card{
+    background-color: #EF7A2E;
+    width: 25%;
+    padding: 20px;
+}
+
+.card h4{
+    padding: 15px 0 20px;
+}
+
+.card p{
+    font-style: italic;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.circle img{
+    width: 25px;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.about-next-part{
+    display: flex;
+}
+
+.about-next-part .part-left{
+    background-color: #F0E3D7;
+    width: 50%;
+    padding: 70px 100px;
+}
+
+.left-img{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.left-img img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    text-align: end;
+}
+
+.about-next-part .part-right{
+    width: 50%;
+    padding: 70px 100px;
+}
+.about-next-part .part-right h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.txt-under{
+    text-decoration: underline;
+}
+
+.right-img{
+    width: 300px;
+    margin-top: 50px;
+}
+
+.right-img img{
+    width: 100%;
+}
+
+.section-orange{
+    padding: 50px 200px;
+    text-align: center;
+    color: white;
+}
+
+.section-orange h2{
+    font-size: 70px;
+}
+
+.section-orange p{
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+.section-orange a{
+    color: #ED6914;
+    font-weight: bold;
+}
+
+.section-orange a:hover{
+    background-color: #d3d3d3;
+}
+
+.descrip{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.boxes{
+    width: 35%;
+}
+
+.boxes-1{
+    padding: 20px 20px 0;
+}
+
+.boxes-1 span{
+    font-size: 20px;
+}
+
+.boxes-1 h2{
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.boxes-1 p{
+    padding: 30px 0;
+}
+
+.boxes-1 ul{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.boxes-1 img{
+    width: 25px;
+}
+
+.boxes-2{
+    padding: 20px 0;
+    text-align: center
+}
+
+.boxes-2 p{
+    padding-bottom: 100px;
+    font-size: 25px;
+}
+
+.boxes-3{
+    background-color: #F0E3D7;
+    padding: 60px 20px;
+}
+
+.boxes-3 img{
+    width: 100%;
+}
+
+.section-contact{
+    background: url(/img/cov-12.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.contact{
+    padding: 60px;
+}
+
+.contact h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: none;
+    background-color: #F2F2F2;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #ED6914;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #EF7A2E;
+}
+
+.footer{
+    background-color: #333333;
+    padding: 100px 0;
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+}
